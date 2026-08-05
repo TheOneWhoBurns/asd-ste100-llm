@@ -1,0 +1,2 @@
+{"messages":[{"role":"system","content":"Preserve the technical meaning. Return only the rewritten instruction."},{"role":"user","content":"Rewrite: The technician should carefully inspect the cable before it is connected."},{"role":"assistant","content":"Examine the cable before you connect it."}]}
+

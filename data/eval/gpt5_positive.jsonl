@@ -1,0 +1,12 @@
+{"id":"ai-description","text_type":"description","output":"The language model uses training data to predict tokens. The model puts the tokens in a sequence and gives an answer.","technical_terms":["language model","training data","token","answer","predict"]}
+{"id":"router-procedure","text_type":"procedure","output":"Disconnect the router from the power supply. Wait for 30 seconds. Connect the router to the power supply.","technical_terms":["router","power supply","second"]}
+{"id":"wet-equipment-warning","text_type":"procedure","output":"Do not touch the electrical equipment if it is wet. You can get an electrical shock.","technical_terms":["electrical equipment","electrical shock"]}
+{"id":"upload-recovery","text_type":"procedure","output":"If the file transfer stops, examine the network connection. Start the file transfer again.","technical_terms":["upload","file transfer","network connection"]}
+{"id":"backup-description","text_type":"description","output":"The backup service makes a copy of each changed file every night.","technical_terms":["backup service","file"]}
+{"id":"battery-procedure","text_type":"procedure","output":"Make sure that the device is off. Replace the battery.","technical_terms":["device","battery"]}
+{"id":"password-procedure","text_type":"procedure","output":"Do not share the password. Keep the password in the password manager.","technical_terms":["password","password manager"]}
+{"id":"sensor-description","text_type":"description","output":"The temperature sensor monitors the server. The sensor sends a warning when the server is too hot.","technical_terms":["temperature sensor","server","monitor","warning"]}
+{"id":"form-procedure","text_type":"procedure","output":"Complete the form. Make sure that each field is correct. Select SUBMIT.","technical_terms":["form","field","SUBMIT"]}
+{"id":"cache-description","text_type":"description","output":"The cache keeps data that users request frequently. This decreases the time necessary to show the website.","technical_terms":["cache","data","user","website"]}
+{"id":"installation-procedure","text_type":"procedure","output":"When the installation is complete, start the program. Enter your user name and password.","technical_terms":["installation","program","user","password"]}
+{"id":"error-description","text_type":"description","output":"The red error indicator shows that the database connection is not available.","technical_terms":["red error indicator","database connection"]}

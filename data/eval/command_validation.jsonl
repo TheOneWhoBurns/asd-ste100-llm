@@ -1,0 +1,7 @@
+{"id":"control-command","text_type":"procedure","output":"Control the device.","technical_terms":["device"]}
+{"id":"change-command","text_type":"procedure","output":"Change the device.","technical_terms":["device"]}
+{"id":"display-command","text_type":"procedure","output":"Display the result.","technical_terms":["result"]}
+{"id":"test-command","text_type":"procedure","output":"Test the system.","technical_terms":["system"]}
+{"id":"check-command","text_type":"procedure","output":"Check the device.","technical_terms":["device"]}
+{"id":"set-command","text_type":"procedure","output":"Set the switch.","technical_terms":["switch"]}
+{"id":"turn-command","text_type":"procedure","output":"Turn the knob.","technical_terms":["knob"]}

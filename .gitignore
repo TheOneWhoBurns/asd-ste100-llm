@@ -1,0 +1,13 @@
+.venv/
+.uv-cache/
+.cache/
+models/
+references/private/
+data/private/
+data/processed/
+artifacts/
+*.safetensors
+*.egg-info/
+__pycache__/
+*.pyc
+tmp/

@@ -1,0 +1,22 @@
+model: models/qwen3.5-9b-mlx-4bit
+train: true
+data: data/probe
+fine_tune_type: lora
+optimizer: adam
+mask_prompt: true
+num_layers: 4
+batch_size: 1
+iters: 1
+val_batches: 1
+learning_rate: 1.0e-5
+steps_per_report: 1
+steps_per_eval: 1
+save_every: 1
+max_seq_length: 256
+grad_checkpoint: true
+adapter_path: artifacts/trainability-probe
+lora_parameters:
+  rank: 4
+  dropout: 0.0
+  scale: 8.0
+

@@ -1,0 +1,15 @@
+{
+  "text": "Select SUBMIT.",
+  "text_type": "procedure",
+  "technical_terms": ["SUBMIT"],
+  "before": {
+    "strict_compliant": false,
+    "rule": "STE-POS-MISMATCH",
+    "evidence": "low-confidence NNP/compound parse"
+  },
+  "after": {
+    "strict_compliant": true,
+    "rule": null
+  },
+  "status": "fixed-with-narrow-exception"
+}

@@ -1,0 +1,26 @@
+[project]
+name = "asd-ste100-llm"
+version = "0.1.0"
+description = "Local MLX post-training lab for ASD-STE100 language behavior"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "asd-ste100-checker @ git+https://github.com/sourdough-bread/asd-ste100-checker.git@e193ecdd66b09ce81b7c611f1c841efd8ba84cc7",
+  "cryptography==49.0.0",
+  "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
+  "huggingface-hub[hf-xet]==1.6.0",
+  "mlx-lm==0.31.3",
+  "pypdf==6.7.4",
+]
+
+[project.scripts]
+ste-reward = "ste_reward.cli:main"
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

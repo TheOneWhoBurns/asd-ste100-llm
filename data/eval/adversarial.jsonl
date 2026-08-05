@@ -1,0 +1,8 @@
+{"id":"empty","text_type":"description","output":"","must_reject":true}
+{"id":"uppercase-nonce","text_type":"description","output":"FLURBLE WUGGLE ZORP.","must_reject":true}
+{"id":"single-uppercase-nonce","text_type":"description","output":"ZORP.","must_reject":true}
+{"id":"lowercase-nonce","text_type":"description","output":"Flurble the wuggle zorp.","must_reject":true}
+{"id":"semicolon","text_type":"procedure","output":"Open the door; close the door.","must_reject":true}
+{"id":"contraction","text_type":"description","output":"Do not move it if it isn't stable.","must_reject":true}
+{"id":"passive","text_type":"procedure","output":"The door must be opened.","must_reject":true}
+{"id":"long-description","text_type":"description","output":"The door is open. The door is open. The door is open. The door is open. The door is open. The door is open. The door is open.","must_reject":true}

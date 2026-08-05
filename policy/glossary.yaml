@@ -1,0 +1,36 @@
+name: local-ste-reward
+
+technical_nouns:
+  # Enter each token in a multiword technical term. The checker evaluates
+  # vocabulary token by token.
+  - word: language
+    inflections: []
+  - word: model
+    inflections:
+      - models
+  - word: neural
+    inflections: []
+  - word: network
+    inflections:
+      - networks
+  - word: training
+    inflections: []
+  - word: data
+    inflections: []
+  - word: reward
+    inflections:
+      - rewards
+  - word: function
+    inflections:
+      - functions
+  - word: token
+    inflections:
+      - tokens
+
+technical_verbs:
+  - word: tokenize
+    inflections:
+      - tokenizes
+      - tokenized
+
+preferred_terms: {}
